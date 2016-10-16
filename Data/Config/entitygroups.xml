@@ -2843,6 +2843,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieDarlene"/>
         <entity name="zombieMarlene"/>
+        <entity name="zombieNurse"/>
         <entity name="zombieFemaleHazmat" prob="0.01"/>
         <entity name="zombieMaleHazmat" prob="0.01"/>
         <entity name="ZombieUtilityWorker" prob="0.02"/>
@@ -2860,6 +2861,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieDarlene"/>
         <entity name="zombieMarlene"/>
+        <entity name="zombieNurse"/>
         <entity name="zombieFemaleHazmat" prob="0.04"/>
         <entity name="zombieMaleHazmat" prob="0.04"/>
         <entity name="ZombieUtilityWorker" prob="0.05"/>
