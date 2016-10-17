@@ -44,16 +44,16 @@
         <spawn maxcount="5" respawndelay="3" time="Any"   entitygroup="ZombiesAll" />
         
         <spawn maxcount="4" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
-        <spawn maxcount="1" respawndelay="3" time="Day" entitygroup="HornetNestGroup" spawnDeadChance="0.05" />
-        <spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombieBearGroup" spawnDeadChance="0.05" />
+        <spawn maxcount="1" respawndelay="3" time="Day" entitygroup="HornetNestGroup" spawnDeadChance="0.5" />
+        <spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombieBearGroup" spawnDeadChance="0.5" />
     </biome>
 	
     <biome name="pine_forest">
         <spawn maxcount="5" respawndelay="3" time="Any"   entitygroup="ZombiesAll" />
         
         <spawn maxcount="4" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0.0" />
-        <spawn maxcount="1" respawndelay="3" time="Day" entitygroup="HornetNestGroup" spawnDeadChance="0.05" />
-        <spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombieBearGroup" spawnDeadChance="0.05" />
+        <spawn maxcount="1" respawndelay="3" time="Day" entitygroup="HornetNestGroup" spawnDeadChance="0.5" />
+        <spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombieBearGroup" spawnDeadChance="0.5" />
     </biome>	
 
     <biome name="plains">
