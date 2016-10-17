@@ -48,8 +48,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <entity name="hornet" prob="0.05" />
-        <entity name="zombiedog" prob="0.05" />
+        <!--<entity name="hornet" prob="0.05" />-->
+        <!--<entity name="zombiedog" prob="0.05" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
@@ -66,8 +66,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <entity name="hornet" prob="0.05" />
-        <entity name="zombiedog" prob="0.05" />
+        <!--<entity name="hornet" prob="0.05" />-->
+        <!--<entity name="zombiedog" prob="0.05" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
@@ -77,8 +77,8 @@ Build: A15 stable B105
         <entity name="burntzombie" />
         <entity name="Scorched Rusher" prob="0.02"/>
         <entity name="Burning Boss" prob="0.01" />
-        <entity name="hornet" prob="0.05" />
-        <entity name="zombiedog" prob="0.05" />
+        <!--<entity name="hornet" prob="0.05" />-->
+        <!--<entity name="zombiedog" prob="0.05" />-->
         <entity name="Burnt Crawler" />
         <entity name="Burnt Spider" />
     </entitygroup>
@@ -103,8 +103,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />		
-        <entity name="hornet" />
-        <entity name="zombiedog" />
+        <!--<entity name="hornet" />-->
+       <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />			
@@ -125,12 +125,12 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />		
-        <entity name="hornet" />
-        <entity name="zombiedog" />
+        <!--<entity name="hornet" />-->
+       <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />
-        <entity name="zombieBear" />
+        <!--<entity name="zombieBear" />-->
         <entity name="zombieferal" />
         <!-- <entity name="zombieFemaleHazmat" prob="0.02" /> -->
         <entity name="Feral Ravager" prob="0.02"/>
@@ -151,8 +151,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <entity name="hornet" />
-        <entity name="zombiedog" />
+        <!--<entity name="hornet" />-->
+       <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />
@@ -173,12 +173,12 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />		
-        <entity name="hornet" prob="0.15"/>
-        <entity name="zombiedog" prob="0.15"/>
+        <!--<entity name="hornet" prob="0.15"/>-->
+        <!--<entity name="zombiedog" prob="0.15"/>-->
         <entity name="zombieSteveCrawler" prob="0.05"/>
         <entity name="fatzombiecop" prob="0.15"/>
         <entity name="burntzombie" prob="0.07"/>
-        <entity name="zombieBear" prob="0.1"/>
+        <!--<entity name="zombieBear" prob="0.01"/>-->
         <entity name="zombieferal" prob="0.1"/>
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
@@ -200,8 +200,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <entity name="hornet" prob="0.15"/>
-        <entity name="zombiedog" prob="0.15"/>
+        <!--<entity name="hornet" prob="0.15"/>-->
+        <!--<entity name="zombiedog" prob="0.15"/>-->
         <entity name="zombieSteveCrawler" prob="0.05"/>
         <entity name="fatzombiecop" prob="0.15"/>
         <entity name="burntzombie" prob="0.07"/>
@@ -221,8 +221,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />		
-        <entity name="hornet" prob="0.15"/>
-        <entity name="zombiedog" prob="0.15"/>
+        <!--<entity name="hornet" prob="0.15"/>-->
+        <!--<entity name="zombiedog" prob="0.15"/>-->
         <entity name="zombieSteveCrawler" prob="0.05"/>
         <entity name="fatzombiecop" prob="0.15"/>
         <entity name="burntzombie" prob="0.07"/>
@@ -246,9 +246,9 @@ Build: A15 stable B105
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />		
         <entity name="fatzombiecop" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="zombiedog" prob="0.05"/>
-        <entity name="zombieBear" prob="0.05"/>
+        <!--<entity name="hornet" prob="0.05"/>-->
+        <!--<entity name="zombiedog" prob="0.05"/>-->
+        <!--<entity name="zombieBear" prob="0.05"/>-->
         <entity name="zombieSteveCrawler" prob="0.1"/>
         <entity name="Feral Ravager" prob="0.01"/>
         <entity name="Bloated Walker" prob="0.06"/>
@@ -324,12 +324,12 @@ Build: A15 stable B105
 	
     <entitygroup name="ZombieDogGroup">
         <entity name="zombiedog" />
-    </entitygroup>	
+    </entitygroup>
 
     <entitygroup name="ZombieFarmGroup">
         <entity name="ZombieFarmer" />
         <entity name="ZombieFemaleFatUMA" />
-        <entity name="zombiedog" />
+       <!-- <entity name="zombiedog" />-->
         <entity name="animalPig" />
         <entity name="animalChicken" />
         <entity name="ZombieFarmer" />
@@ -388,7 +388,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder" />
         <entity name="zombieBoe" />
         <entity name="zombieMoe" />
-        <entity name="zombiedog" />
+       <!-- <entity name="zombiedog" />-->
     </entitygroup>	
 
     <entitygroup name="ZombieBikerBarGroup"> <!-- The Boobie Trap -->
@@ -2833,57 +2833,31 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
     </entitygroup>		
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-    <!-- start: The Walking ZED Groups -->
-    <entitygroup name="TWZEDHoard">
-        <entity name="zombieBoe"/>
-        <entity name="zombieJoe"/>
-        <entity name="zombieSteve"/>
-        <entity name="zombieMoe"/>
-        <entity name="zombieYo"/>
-        <entity name="zombieArlene"/>
-        <entity name="zombieDarlene"/>
-        <entity name="zombieMarlene"/>
-        <entity name="zombieNurse"/>
-        <entity name="zombieFemaleHazmat" prob="0.01"/>
-        <entity name="zombieMaleHazmat" prob="0.01"/>
-        <entity name="ZombieUtilityWorker" prob="0.02"/>
-        <entity name="ZombieMiner" prob="0.02"/>
-        <entity name="zombieSteveCrawler" prob="0.05"/>
-        <entity name="Bloated Walker" prob="0.02"/>
+    <!-- start: the walking zed groups-->
+        <entitygroup name="ZombieBearGroup">
+        <entity name="zombieBear"/>
     </entitygroup>
-    <entitygroup name="TWZEDHoardNight">
-        <entity name="spiderzombie" prob="0.03"/>
-        <entity name="zombieBoe"/>
-        <entity name="zombieJoe"/>
-        <entity name="zombieSteve"/>
-        <entity name="zombieMoe"/>
-        <entity name="zombieYo"/>
-        <entity name="zombieArlene"/>
-        <entity name="zombieDarlene"/>
-        <entity name="zombieMarlene"/>
-        <entity name="zombieNurse"/>
-        <entity name="zombieFemaleHazmat" prob="0.04"/>
-        <entity name="zombieMaleHazmat" prob="0.04"/>
-        <entity name="ZombieUtilityWorker" prob="0.05"/>
-        <entity name="ZombieMiner" prob="0.05"/>
-        <entity name="zombieSteveCrawler" prob="0.08"/>
-        <entity name="Bloated Walker" prob="0.05"/>
+        <entitygroup name="HornetNestGroup">
+        <entity name="hornet"/>
+        <entity name="hornet"/>
+        <entity name="hornet"/>
+        <entity name="hornet" prob="0.5"/>
+        <entity name="hornet" prob="0.5"/>
+        <entity name="hornet" prob="0.5"/>
+        <entity name="hornet" prob="0.2"/>
+        <entity name="hornet" prob="0.2"/>
+        <entity name="hornet" prob="0.2"/>
+        <entity name="hornet" prob="0.1"/>
+        <entity name="hornet" prob="0.1"/>
+        <entity name="hornet" prob="0.1"/>
+        <entity name="hornet" prob="0.1"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.01"/>
     </entitygroup>
-    <entitygroup name="TWZEDHoardAll">
-        <entity name="zombieBoe" prob="0.1"/>
-        <entity name="zombieJoe" prob="0.1"/>
-        <entity name="zombieSteve" prob="0.1"/>
-        <entity name="zombieMoe" prob="0.1"/>
-        <entity name="zombieYo" prob="0.1"/>
-        <entity name="zombieArlene"/>
-        <entity name="zombieDarlene"/>
-        <entity name="zombieMarlene"/>
-        <entity name="zombieSteveCrawler" prob="0.05"/>
-        <entity name="Bloated Walker" prob="0.02"/>
-    </entitygroup>
-    <entitygroup name="TWZEDAnimals">
-        <entity name="animalStag" prob="0.25"/>
-        <entity name="animalBear" prob="0.01"/>
-    </entitygroup>
-    <!-- end: The Walking ZED Groups -->
+    <!--end: the walking zed groups-->
 </entitygroups>

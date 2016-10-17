@@ -2,8 +2,10 @@
  A 7 Days to Die Zombie Ai Overhaul Mod
 
 #----Features----
-3x Amount of Vanilla Zombie's may spawn!
-Unique Horde groups for All Biomes & City Regions! (inc custom RWG)
-Stags & Bears have a chance to be found in cities with the possibility they will be dead to attract zombies!
+Larger Zombie Hordes & More Zombies spawn in biomes and cities.
+Unique Spawn Groups.
+Stags & Bears Spawn with more frequency and can be found around city areas and sometimes even spawn already dead to attract Zombies.
+Zombiefied Animals are greatly reduced and removed from Hoard Nights
+Hornet are removed from everywhere other than forest & pine biomes.
 
 Note: This mod is a work in progress and probably impacts game performance to some degree.
