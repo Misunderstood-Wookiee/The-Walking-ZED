@@ -2875,22 +2875,22 @@ Build: A15 stable B105
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <!-- start: the walking zed groups-->
     <entitygroup name="ZombieBearGroup">
-        <entity name="zombieBear"/>
+        <entity name="zombieBear" prob="0.1"/>
     </entitygroup>
     <entitygroup name="HornetNestGroup">
-        <entity name="hornet"/>
-        <entity name="hornet"/>
-        <entity name="hornet"/>
-        <entity name="hornet" prob="0.5"/>
-        <entity name="hornet" prob="0.5"/>
-        <entity name="hornet" prob="0.5"/>
-        <entity name="hornet" prob="0.2"/>
-        <entity name="hornet" prob="0.2"/>
-        <entity name="hornet" prob="0.2"/>
         <entity name="hornet" prob="0.1"/>
         <entity name="hornet" prob="0.1"/>
         <entity name="hornet" prob="0.1"/>
-        <entity name="hornet" prob="0.1"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.03"/>
+        <entity name="hornet" prob="0.03"/>
+        <entity name="hornet" prob="0.03"/>
+        <entity name="hornet" prob="0.02"/>
+        <entity name="hornet" prob="0.02"/>
+        <entity name="hornet" prob="0.02"/>
+        <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
