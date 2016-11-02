@@ -4,16 +4,27 @@
 
 #----Features----
 Mostly Server Side - clients do not need to install most of it to run on a server.
+
 More Zombies -  zombie spawns increased subtantially (expect larger roaming groups and harder\larger  Blood Moons).
+
 Less Block Damage - Zombies do 1/2 the damage to buildings and doors.
+
 Stunned Time Reduced - half the time & half the duration giving you more time to react.
+
 Slower Zombies - zombies wander around a bit slower than usual.
+
 Zombies Can't Climb (except for the spider zombies and such)
+
 Re-Added  Female Hazmat Zombie (I fixed the vanilla bug)
+
 More Big Animals - often found around city areas and sometimes even they are already dead to attract Zombies.
+
 Less Dogs  - these are removed from blood moons and most other places.
+
 Less Zombie Bears
+
 Less Hornets
+
 Players can stun other Players - No more shall a zombie be the only ones with stun abilities, players fists now have a chance to stun.
 
 
