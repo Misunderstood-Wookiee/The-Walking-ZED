@@ -17,7 +17,6 @@ Build: A15 stable B105
         <entity name="zombieMarlene" prob="0.1" />
         <entity name="ZombieClarice" prob="0.1" />
         <entity name="ZombieJane" prob="0.1" />
-        <entity name="ZombieBigBitch" prob="0.1" />
         <entity name="zombieNurse" prob="0.1" />
         <entity name="zombieSteveCrawler" prob="0.05" />
         <entity name="Bloated Walker" prob="0.07"/>
@@ -96,10 +95,11 @@ Build: A15 stable B105
 
     <entitygroup name="ZombiesUnique">
         <entity name="Scorched Rusher" />
-        <entity name="ZombieCharred" />
+		<entity name="ZombieCharred" />
         <entity name="Burnt Spider" />
+        <entity name="Feral Spider" />
         <entity name="Feral Ravager" />
-        <entity name="ZombieRavager" />
+		<entity name="ZombieRavager" />
         <entity name="Bloated Walker" />
         <entity name="ZombieVoodooFemale" prob="0.02" />
         <entity name="ZombieVoodooMale" prob="0.02" />
@@ -122,7 +122,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />
         <entity name="zombieFemaleHazmat" prob="0.02" />
-        <entity name="Feral_Ravager" prob="0.02"/>
+        <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="Scorched Rusher" prob="0.02"/>
         <entity name="ZombieTrucker" />
@@ -147,7 +147,7 @@ Build: A15 stable B105
         <!--<entity name="zombieBear" />-->
         <entity name="zombieferal" />
         <entity name="zombieFemaleHazmat" prob="0.02"/>
-        <entity name="Feral_Ravager" prob="0.02"/>
+        <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="ZombieTrucker" />
     </entitygroup>
@@ -174,7 +174,7 @@ Build: A15 stable B105
         <entity name="burntzombie" />
         <entity name="zombieferal" />
         <entity name="zombieFemaleHazmat" prob="0.02" />
-        <entity name="Feral_Ravager" prob="0.02"/>
+        <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="ZombieTrucker" />
     </entitygroup>
@@ -249,7 +249,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.1"/>
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
-        <entity name="ZombieRavager" prob="0.06"/>
+		<entity name="ZombieRavager" prob="0.06"/>
         <entity name="ZombieTrucker" prob="0.03"/>
         <entity name="ZombieBrute" prob="0.1"/>
     </entitygroup>
@@ -268,7 +268,6 @@ Build: A15 stable B105
         <entity name="ZombieJane" />
         <entity name="zombieNurse" />
         <entity name="ZombieBigBitch" />
-        <entity name="zombieOldTimer" />
         <entity name="fatzombiecop" prob="0.05"/>
         <!--<entity name="hornet" prob="0.05"/>-->
         <!--<entity name="zombiedog" prob="0.05"/>-->
@@ -288,11 +287,11 @@ Build: A15 stable B105
     </entitygroup>
 
     <entitygroup name="ZombiesBurntForest">
-        <entity name="burntzombie" prob="0.7"/>
+    <entity name="burntzombie" prob="0.7"/>
         <entity name="Burnt Spider" prob="0.05"/>
-        <entity name="Burnt Crawler" prob="0.1"/>
-        <entity name="Scorched Rusher" prob="0.05"/>
-        <entity name="ZombieCharred" prob="0.1"/>
+    <entity name="Burnt Crawler" prob="0.1"/>
+	<entity name="Scorched Rusher" prob="0.05"/>
+	<entity name="ZombieCharred" prob="0.1"/>
     </entitygroup>
 
     <entitygroup name="SnowZombies">
@@ -302,14 +301,15 @@ Build: A15 stable B105
 
     <entitygroup name="ZombiesBoss">
         <entity name="fatzombiecop" prob="0.6"/>
-        <entity name="Burning Boss" prob="0.3"/>
+        <entity name="Burning Boss" prob="0.2"/>
         <entity name="ZombieTrucker" prob="0.1"/>
-        <entity name="ZombieBrute" prob="0.4"/>
+        <entity name="ZombieBrute" prob="0.1"/>
+
     </entitygroup>
 
     <entitygroup name="ZombiesFeral">
         <entity name="zombieferal" />
-        <entity name="ZombieRaveReaper" prob="0.1"/>
+        <entity name="ZombieBrute" prob="0.3"/>
     </entitygroup>
 
     <entitygroup name="ZombiesCave">
@@ -461,19 +461,19 @@ Build: A15 stable B105
     </entitygroup>
 
     <entitygroup name="JasonGroup">
-        <entity name="zombieBoe" prob="0.9"/>
-        <entity name="zombieYo" prob="2"/>
-        <entity name="ZombieJason" prob="0.1"/>
+		<entity name="zombieBoe" prob="0.9"/>
+		<entity name="zombieYo" prob="2"/>
+		<entity name="ZombieJason" prob="0.1"/>
     </entitygroup>
 
     <entitygroup name="BruteBoss">
-        <entity name="zombieBoe" prob="0.85"/>
-        <entity name="ZombieBrute" prob="0.15"/>
+		<entity name="zombieBoe" prob="0.85"/>
+		<entity name="ZombieBrute" prob="0.15"/>
     </entitygroup>
 
     <entitygroup name="RoamingBossGroup">
-        <entity name="ZombieJason" prob="0.3"/>
-        <entity name="ZombieBrute" prob="0.7"/>
+		<entity name="ZombieJason" prob="0.3"/>
+		<entity name="ZombieBrute" prob="0.7"/>
     </entitygroup>
 
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
@@ -2896,7 +2896,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="zombieMarlene"/>
         <entity name="ZombieFootballPlayer"/>
-        <entity name="ZombieBrute" prob="0.2"/>
+		<entity name="ZombieBrute" prob="0.2"/>
     </entitygroup>
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <!-- start: the walking zed groups-->
