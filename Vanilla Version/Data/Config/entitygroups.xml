@@ -3,7 +3,7 @@
 The Walking ZED
 Author: Misunderstood Wookiee
 Build: A15 stable B105
---> 
+-->
 <entitygroups>
 
     <entitygroup name="ZombiesAll">
@@ -36,7 +36,7 @@ Build: A15 stable B105
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="Scorched Rusher" prob="0.006"/>
     </entitygroup>
-	
+
     <entitygroup name="ZombiesNight">
         <entity name="spiderzombie"/>
         <entity name="zombieBoe"/>
@@ -54,7 +54,7 @@ Build: A15 stable B105
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
     </entitygroup>
-	
+
     <entitygroup name="ZombiesNight2">
         <entity name="spiderzombie"/>
         <entity name="zombieBoe"/>
@@ -82,7 +82,7 @@ Build: A15 stable B105
         <entity name="Burnt Crawler" />
         <entity name="Burnt Spider" />
     </entitygroup>
-	
+
     <entitygroup name="ZombiesUnique">
         <entity name="Scorched Rusher" />
         <entity name="Burnt Crawler" />
@@ -91,7 +91,7 @@ Build: A15 stable B105
         <entity name="Feral Ravager" />
         <entity name="Bloated Walker" />
     </entitygroup>
-    
+
     <entitygroup name="ZombiesWasteland">
         <entity name="spiderzombie"/>
         <entity name="zombieBoe" />
@@ -102,18 +102,18 @@ Build: A15 stable B105
         <entity name="zombieArlene" />
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
-        <entity name="zombieNurse" />		
+        <entity name="zombieNurse" />
         <!--<entity name="hornet" />-->
-       <!-- <entity name="zombiedog" />-->
+        <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
-        <entity name="burntzombie" />			
-        <!--<entity name="zombieFemaleHazmat" prob="0.02" /> removed because of uma zombie bug	-->
+        <entity name="burntzombie" />
+        <entity name="zombieFemaleHazmat" prob="0.02"/>
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="Scorched Rusher" prob="0.02"/>
-    </entitygroup>	
-    
+    </entitygroup>
+
     <entitygroup name="ZombiesWastelandNight">
         <entity name="spiderzombie"/>
         <entity name="zombieBoe" />
@@ -124,20 +124,20 @@ Build: A15 stable B105
         <entity name="zombieArlene" />
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
-        <entity name="zombieNurse" />		
+        <entity name="zombieNurse" />
         <!--<entity name="hornet" />-->
-       <!-- <entity name="zombiedog" />-->
+        <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />
         <!--<entity name="zombieBear" />-->
         <entity name="zombieferal" />
-        <!-- <entity name="zombieFemaleHazmat" prob="0.02" /> -->
+        <entity name="zombieFemaleHazmat" prob="0.02" />
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
-    </entitygroup>	
+    </entitygroup>
     <entitygroup name="ZombiesWastelandNightNoBears">
-        <!-- 
+        <!--
         Bears/Animals aren't controllable by the BloodMoon horde system  until Joe
         refactors all the Animal code.
         -->
@@ -152,13 +152,13 @@ Build: A15 stable B105
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
         <!--<entity name="hornet" />-->
-       <!-- <entity name="zombiedog" />-->
+        <!-- <entity name="zombiedog" />-->
         <entity name="zombieSteveCrawler" />
         <entity name="fatzombiecop" />
         <entity name="burntzombie" />
 
         <entity name="zombieferal" />
-        <!-- <entity name="zombieFemaleHazmat" prob="0.02" /> -->
+        <entity name="zombieFemaleHazmat" prob="0.02" />
         <entity name="Feral Ravager" prob="0.02"/>
         <entity name="Bloated Walker" prob="0.06"/>
     </entitygroup>
@@ -172,7 +172,7 @@ Build: A15 stable B105
         <entity name="zombieArlene" />
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
-        <entity name="zombieNurse" />		
+        <entity name="zombieNurse" />
         <!--<entity name="hornet" prob="0.15"/>-->
         <!--<entity name="zombiedog" prob="0.15"/>-->
         <entity name="zombieSteveCrawler" prob="0.05"/>
@@ -184,9 +184,9 @@ Build: A15 stable B105
         <entity name="Bloated Walker" prob="0.06"/>
         <entity name="Feral Spider" prob="0.06"/>
         <entity name="Scorched Rusher" prob="0.03"/>
-    </entitygroup>	   
+    </entitygroup>
     <entitygroup name="ZombiesWastelandNight2NoBears">
-        <!-- 
+        <!--
         Bears/Animals aren't controllable by the BloodMoon horde system  until Joe
         refactors all the Animal code.
         -->
@@ -220,7 +220,7 @@ Build: A15 stable B105
         <entity name="zombieArlene" />
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
-        <entity name="zombieNurse" />		
+        <entity name="zombieNurse" />
         <!--<entity name="hornet" prob="0.15"/>-->
         <!--<entity name="zombiedog" prob="0.15"/>-->
         <entity name="zombieSteveCrawler" prob="0.05"/>
@@ -232,8 +232,8 @@ Build: A15 stable B105
         <entity name="Feral Spider" prob="0.06"/>
         <entity name="Scorched Rusher" prob="0.03"/>
         <entity name="Zombie Gorilla Boss" prob="0.1"/>
-    </entitygroup>	
-	
+    </entitygroup>
+
     <entitygroup name="ZombiesHoard">
         <entity name="spiderzombie"/>
         <entity name="zombieBoe" prob="0.1"/>
@@ -244,7 +244,8 @@ Build: A15 stable B105
         <entity name="zombieArlene" />
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
-        <entity name="zombieNurse" />		
+        <entity name="zombieNurse" />
+        <entity name="zombieOldTimer" />
         <entity name="fatzombiecop" prob="0.05"/>
         <!--<entity name="hornet" prob="0.05"/>-->
         <!--<entity name="zombiedog" prob="0.05"/>-->
@@ -269,16 +270,16 @@ Build: A15 stable B105
         <entity name="Burnt Crawler" prob="0.01"/>
         <entity name="Scorched Rusher" prob="0.03"/>
     </entitygroup>
-    
+
     <entitygroup name="SnowZombies">
         <entity name="snowzombie" prob="1"/>
-    </entitygroup>    		
-	
+    </entitygroup>
+
     <entitygroup name="ZombiesBoss">
         <entity name="fatzombiecop" prob="0.7"/>
         <entity name="Burning Boss" prob="0.3"/>
-    </entitygroup>	
-	
+    </entitygroup>
+
     <entitygroup name="ZombiesFeral">
         <entity name="zombieferal" />
         <entity name="Zombie Gorilla Boss" prob="0.3"/>
@@ -300,28 +301,28 @@ Build: A15 stable B105
         <entity name="animalRabbit" />
         <entity name="animalChicken" />
     </entitygroup>
-    
+
     <entitygroup name="AnimalsFarm">
         <entity name="animalPig" />
         <entity name="animalChicken" />
     </entitygroup>
-	
+
     <entitygroup name="AnimalsBig">
         <entity name="animalStag" />
-    </entitygroup>   
-    
-    <entitygroup name="AnimalsAll" >        
+    </entitygroup>
+
+    <entitygroup name="AnimalsAll" >
         <entity name="animalRabbit" prob="0.35"/>
         <entity name="animalChicken" prob="0.35"/>
         <entity name="animalStag" prob="0.15"/>
         <entity name="animalPig" prob="0.14"/>
         <entity name="animalBear" prob="0.01" />
-    </entitygroup>    
-	
+    </entitygroup>
+
     <entitygroup name="HornetGroup">
         <entity name="hornet" />
-    </entitygroup>	
-	
+    </entitygroup>
+
     <entitygroup name="ZombieDogGroup">
         <entity name="zombiedog" />
     </entitygroup>
@@ -329,12 +330,12 @@ Build: A15 stable B105
     <entitygroup name="ZombieFarmGroup">
         <entity name="ZombieFarmer" />
         <entity name="ZombieFemaleFatUMA" />
-       <!-- <entity name="zombiedog" />-->
+        <!-- <entity name="zombiedog" />-->
         <entity name="animalPig" />
         <entity name="animalChicken" />
         <entity name="ZombieFarmer" />
     </entitygroup>
-	
+
     <entitygroup name="ZombieSoldierGroup">
         <entity name="ZombieSoldier" />
         <entity name="zombieMaleHazmat" prob="0.2" />
@@ -351,9 +352,9 @@ Build: A15 stable B105
         <entity name="zombieNurse" prob="0.01" />
         <entity name="zombiedog" prob="0.01" />
         <entity name="zombieSteveCrawler" prob="0.01" />
-        <entity name="zombieferal" prob="0.01" />		
-    </entitygroup>		
-	
+        <entity name="zombieferal" prob="0.01" />
+    </entitygroup>
+
     <entitygroup name="ZombieUtilityWorkerGroup">
         <entity name="ZombieUtilityWorker" />
         <entity name="zombieBoe" prob="0.01" />
@@ -361,7 +362,7 @@ Build: A15 stable B105
         <entity name="zombieSteve" prob="0.01" />
         <entity name="zombieMoe" prob="0.01" />
         <entity name="zombieYo" prob="0.01" />
-    </entitygroup>		
+    </entitygroup>
 
     <entitygroup name="ZombieFootballStadiumGroup">
         <entity name="ZombieFootballPlayer" prob="10" />
@@ -371,12 +372,12 @@ Build: A15 stable B105
         <entity name="zombieSteve" prob="0.01" />
         <entity name="zombieYo" prob="0.01" />
         <entity name="zombieNurse" prob="0.01" />
-    </entitygroup>		
+    </entitygroup>
 
     <entitygroup name="ZombieUtilityWorkerGroup">
         <entity name="ZombieUtilityWorker" />
         <entity name="ZombieMiner" />
-    </entitygroup>	
+    </entitygroup>
 
     <entitygroup name="ZombieGhostTownGroup"> <!-- old west town -->
         <entity name="zombieOldTimer" prob="3"/>
@@ -388,8 +389,8 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder" />
         <entity name="zombieBoe" />
         <entity name="zombieMoe" />
-       <!-- <entity name="zombiedog" />-->
-    </entitygroup>	
+        <!-- <entity name="zombiedog" />-->
+    </entitygroup>
 
     <entitygroup name="ZombieBikerBarGroup"> <!-- The Boobie Trap -->
         <entity name="ZombieBiker" prob="3"/>
@@ -399,18 +400,18 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder" />
         <entity name="zombieBoe" />
         <entity name="zombieMoe" />
-    </entitygroup>	
-	
+    </entitygroup>
+
     <entitygroup name="BanditGroup">
         <entity name="banditMelee" />
         <entity name="banditRanged" />
         <entity name="banditLeader" prob="0.2"/>
-    </entitygroup>		
+    </entitygroup>
 
     <entitygroup name="SupplyCrates_General">
-        <entity name="sc_General" />		
-    </entitygroup>	
-	
+        <entity name="sc_General" />
+    </entitygroup>
+
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <entitygroup name="hordeStageGS1">
         <entity name="zombieBoe"/>
@@ -421,7 +422,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="ZombieCheerleader"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS2">
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieJoe"/>
@@ -431,7 +432,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieArlene"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS4">
         <entity name="zombieSteve"/>
         <entity name="zombieDarlene"/>
@@ -441,7 +442,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS6">
         <entity name="zombieDarlene"/>
         <entity name="zombieSteve"/>
@@ -451,7 +452,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS9">
         <entity name="zombieDarlene"/>
         <entity name="ZombieSkateboarder"/>
@@ -461,7 +462,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS12">
         <entity name="zombieMoe"/>
         <entity name="zombieSteve"/>
@@ -471,7 +472,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS14">
         <entity name="zombieYo"/>
         <entity name="ZombieSkateboarder"/>
@@ -481,7 +482,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS17">
         <entity name="zombieDarlene"/>
         <entity name="zombieBoe"/>
@@ -491,7 +492,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS21">
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieSteve"/>
@@ -501,7 +502,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieDarlene"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS24">
         <entity name="zombieMoe"/>
         <entity name="ZombieCheerleader"/>
@@ -511,7 +512,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieBoe"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS27">
         <entity name="zombieBoe"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -521,7 +522,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="zombieMoe"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS31">
         <entity name="zombieMarlene"/>
         <entity name="ZombieSkateboarder"/>
@@ -531,7 +532,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="burntzombie"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS35">
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieBoe"/>
@@ -541,7 +542,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS38">
         <entity name="zombieArlene"/>
         <entity name="ZombieFemaleUMA"/>
@@ -551,7 +552,7 @@ Build: A15 stable B105
         <entity name="zombieBoe"/>
         <entity name="zombieSteve"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS42">
         <entity name="zombieJoe"/>
         <entity name="zombieArlene"/>
@@ -561,7 +562,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS46">
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieCheerleader"/>
@@ -571,7 +572,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieYo"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS50">
         <entity name="zombieSteve"/>
         <entity name="zombieSteveCrawler"/>
@@ -581,7 +582,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS55">
         <entity name="ZombieCheerleader"/>
         <entity name="zombieArlene"/>
@@ -591,7 +592,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieYo"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS59">
         <entity name="zombieMoe"/>
         <entity name="ZombieFemaleUMA"/>
@@ -601,7 +602,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="zombieMarlene"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS63">
         <entity name="ZombieCheerleader"/>
         <entity name="zombieArlene"/>
@@ -611,7 +612,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieMoe"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS68">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieYo"/>
@@ -621,7 +622,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieSteve"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS72">
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieMarlene"/>
@@ -631,7 +632,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieCheerleader"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS77">
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieJoe"/>
@@ -641,7 +642,7 @@ Build: A15 stable B105
         <entity name="zombieBoe"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS82">
         <entity name="zombieNurse"/>
         <entity name="ZombieMaleUMA"/>
@@ -651,7 +652,7 @@ Build: A15 stable B105
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieMarlene"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS86">
         <entity name="burntzombie"/>
         <entity name="zombieBoe"/>
@@ -661,7 +662,7 @@ Build: A15 stable B105
         <entity name="zombieSteve"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS91">
         <entity name="zombieNurse"/>
         <!--<entity name="zombiedog"/>-->
@@ -671,7 +672,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieBoe"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS96">
         <entity name="zombieMarlene"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -681,7 +682,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieNurse"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS101">
         <entity name="zombieMarlene"/>
         <entity name="burntzombie"/>
@@ -691,7 +692,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="zombieJoe"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS106">
         <entity name="zombieArlene"/>
         <entity name="zombieBoe"/>
@@ -701,7 +702,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS111">
         <entity name="zombieMoe"/>
         <entity name="ZombieMaleUMA"/>
@@ -711,7 +712,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieNurse"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS117">
         <entity name="zombieFemaleHazmat"/>
         <entity name="burntzombie"/>
@@ -721,7 +722,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieMoe"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS122">
         <entity name="ZombieFemaleUMA"/>
         <entity name="burntzombie"/>
@@ -731,7 +732,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieNurse"/>
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS127">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieNurse"/>
@@ -741,7 +742,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS133">
         <entity name="zombieArlene"/>
         <entity name="zombieYo"/>
@@ -751,7 +752,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS138">
         <entity name="ZombieMaleUMA"/>
         <entity name="burntzombie"/>
@@ -761,7 +762,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS144">
         <entity name="burntzombie"/>
         <!--<entity name="zombiedog"/>-->
@@ -771,7 +772,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieMoe"/>
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS149">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieBoe"/>
@@ -781,7 +782,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS155">
         <entity name="zombieMoe"/>
         <entity name="zombieJoe"/>
@@ -791,7 +792,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS160">
         <entity name="zombieDarlene"/>
         <entity name="ZombieMaleUMA"/>
@@ -801,7 +802,7 @@ Build: A15 stable B105
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieBoe"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS166">
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieSkateboarder"/>
@@ -811,7 +812,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieSteve"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS172">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieSteveCrawler"/>
@@ -821,7 +822,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="ZombieCheerleader"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS178">
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieFemaleUMA"/>
@@ -831,7 +832,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieMiner"/>
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS184">
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieMaleUMA"/>
@@ -841,7 +842,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieNurse"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS190">
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieCheerleader"/>
@@ -851,7 +852,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="zombieMoe"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS196">
         <entity name="fatzombiecop" prob="0.269"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -861,7 +862,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieYo"/>
         <entity name="zombieBoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS202">
         <entity name="zombieMoe"/>
         <entity name="zombieDarlene"/>
@@ -871,7 +872,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieArlene"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS208">
         <entity name="spiderzombie"/>
         <entity name="zombieArlene"/>
@@ -881,7 +882,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieYo"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS214">
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieMoe"/>
@@ -891,7 +892,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.275"/>
         <entity name="burntzombie"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS220">
         <entity name="zombieSteve"/>
         <entity name="zombieArlene"/>
@@ -901,7 +902,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieSoldier" prob="0.555"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS227">
         <entity name="zombieDarlene"/>
         <entity name="ZombieUtilityWorker"/>
@@ -911,7 +912,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS233">
         <entity name="zombieSteve"/>
         <entity name="ZombieMaleUMA"/>
@@ -921,7 +922,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS239">
         <entity name="zombieJoe"/>
         <entity name="spiderzombie"/>
@@ -931,7 +932,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieArlene"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS246">
         <entity name="zombieArlene"/>
         <entity name="zombieYo"/>
@@ -941,7 +942,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="spiderzombie"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS252">
         <entity name="zombieferal" prob="0.108"/>
         <!--<entity name="zombiedog"/>-->
@@ -951,7 +952,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.563"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS259">
         <entity name="spiderzombie"/>
         <entity name="zombieArlene"/>
@@ -961,7 +962,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieBoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS265">
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieFemaleHazmat"/>
@@ -971,7 +972,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="burntzombie"/>
         <entity name="zombieNurse"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS272">
         <entity name="zombieferal" prob="0.116"/>
         <entity name="zombieJoe"/>
@@ -981,7 +982,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.568"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS279">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieMarlene"/>
@@ -991,7 +992,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="spiderzombie"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS285">
         <entity name="zombieDarlene"/>
         <entity name="spiderzombie"/>
@@ -1001,7 +1002,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS292">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieMarlene"/>
@@ -1011,7 +1012,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieBoe"/>
         <entity name="zombieArlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS299">
         <entity name="zombieBoe"/>
         <entity name="ZombieFemaleUMA"/>
@@ -1021,7 +1022,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS306">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -1031,7 +1032,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieSoldier" prob="0.577"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS312">
         <entity name="ZombieMiner"/>
         <entity name="ZombieMaleUMA"/>
@@ -1041,7 +1042,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieJoe"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS319">
         <entity name="ZombieSoldier" prob="0.58"/>
         <entity name="fatzombiecop" prob="0.312"/>
@@ -1051,7 +1052,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS326">
         <entity name="zombieNurse"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1061,7 +1062,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieBoe"/>
         <entity name="fatzombiecop" prob="0.315"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS333">
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieMiner"/>
@@ -1071,7 +1072,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieSteve"/>
         <entity name="fatzombiecop" prob="0.317"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS340">
         <entity name="zombieferal" prob="0.145"/>
         <entity name="spiderzombie"/>
@@ -1081,7 +1082,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="fatzombiecop" prob="0.319"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS347">
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1091,7 +1092,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.148"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="fatzombiecop" prob="0.322"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS355">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1101,7 +1102,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS362">
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieMarlene"/>
@@ -1111,7 +1112,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieferal" prob="0.154"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS369">
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieUtilityWorker"/>
@@ -1121,7 +1122,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS376">
         <entity name="zombieferal" prob="0.16"/>
         <!--<entity name="zombiedog"/>-->
@@ -1131,7 +1132,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieSteve"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS383">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFemaleUMA"/>
@@ -1141,7 +1142,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieArlene"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS391">
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieMoe"/>
@@ -1151,7 +1152,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.167"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS398">
         <entity name="ZombieMiner"/>
         <entity name="zombieDarlene"/>
@@ -1161,7 +1162,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS405">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1171,7 +1172,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.342"/>
         <entity name="zombieBoe"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS413">
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieFemaleHazmat"/>
@@ -1181,7 +1182,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieSteve"/>
         <entity name="ZombieFemaleFatUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS420">
         <entity name="ZombieFootballPlayer"/>
         <!--<entity name="zombiedog"/>-->
@@ -1191,7 +1192,7 @@ Build: A15 stable B105
         <entity name="zombieBoe"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS428">
         <entity name="fatzombiecop" prob="0.35"/>
         <entity name="ZombieSkateboarder"/>
@@ -1201,7 +1202,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS435">
         <entity name="zombieMaleHazmat"/>
         <entity name="spiderzombie"/>
@@ -1211,7 +1212,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieArlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS443">
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.189"/>
@@ -1221,7 +1222,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.356"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS451">
         <entity name="zombieSteve"/>
         <entity name="zombieMarlene"/>
@@ -1231,7 +1232,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieCheerleader"/>
         <entity name="fatzombiecop" prob="0.358"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS458">
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieSoldier" prob="0.615"/>
@@ -1241,7 +1242,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS466">
         <entity name="ZombieSkateboarder"/>
         <entity name="ZombieMiner"/>
@@ -1251,7 +1252,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="spiderzombie"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS474">
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieMiner"/>
@@ -1261,7 +1262,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieferal" prob="0.202"/>
         <entity name="ZombieSoldier" prob="0.619"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS481">
         <entity name="zombieMaleHazmat"/>
         <entity name="fatzombiecop" prob="0.369"/>
@@ -1271,7 +1272,7 @@ Build: A15 stable B105
         <!--<entity name="zombiedog"/>-->
         <entity name="spiderzombie"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS489">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1281,7 +1282,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="fatzombiecop" prob="0.372"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS497">
         <entity name="ZombieSoldier" prob="0.625"/>
         <entity name="zombieSteve"/>
@@ -1291,7 +1292,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieFootballPlayer"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS505">
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieSoldier" prob="0.627"/>
@@ -1301,7 +1302,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS513">
         <entity name="spiderzombie"/>
         <!--<entity name="zombiedog"/>-->
@@ -1311,7 +1312,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS521">
         <entity name="ZombieMiner"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1321,7 +1322,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.383"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS529">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieferal" prob="0.225"/>
@@ -1331,7 +1332,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieSoldier" prob="0.633"/>
         <entity name="fatzombiecop" prob="0.386"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS537">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1341,7 +1342,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS545">
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1351,7 +1352,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieSoldier" prob="0.637"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS553">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieSteveCrawler"/>
@@ -1361,7 +1362,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieSkateboarder"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS561">
         <entity name="zombieFemaleHazmat"/>
         <entity name="fatzombiecop" prob="0.397"/>
@@ -1371,7 +1372,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieArlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS569">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieSoldier" prob="0.643"/>
@@ -1381,7 +1382,7 @@ Build: A15 stable B105
         <entity name="ZombieMaleUMA"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieferal" prob="0.242"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS577">
         <entity name="spiderzombie"/>
         <entity name="zombieSteveCrawler"/>
@@ -1391,7 +1392,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.246"/>
         <entity name="ZombieMiner"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS585">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieMiner"/>
@@ -1401,7 +1402,7 @@ Build: A15 stable B105
         <entity name="zombieMoe"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS594">
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieMaleUMA"/>
@@ -1411,7 +1412,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieYo"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS602">
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -1421,7 +1422,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.411"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieferal" prob="0.256"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS610">
         <entity name="zombieFemaleHazmat"/>
         <entity name="burntzombie"/>
@@ -1431,7 +1432,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieSkateboarder"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS618">
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieferal" prob="0.263"/>
@@ -1441,7 +1442,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.655"/>
         <entity name="ZombieFemaleUMA"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS627">
         <entity name="ZombieSoldier" prob="0.657"/>
         <entity name="zombieSteveCrawler"/>
@@ -1451,7 +1452,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieJoe"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS635">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMaleHazmat"/>
@@ -1461,7 +1462,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="zombieMarlene"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS644">
         <entity name="ZombieMaleUMA"/>
         <entity name="zombieNurse"/>
@@ -1471,7 +1472,7 @@ Build: A15 stable B105
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieferal" prob="0.274"/>
         <entity name="fatzombiecop" prob="0.426"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS652">
         <entity name="zombieBoe"/>
         <entity name="ZombieMiner"/>
@@ -1481,7 +1482,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.278"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS660">
         <entity name="zombieferal" prob="0.281"/>
         <entity name="ZombieMiner"/>
@@ -1491,7 +1492,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieDarlene"/>
         <entity name="ZombieSoldier" prob="0.665"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS669">
         <entity name="zombieMaleHazmat"/>
         <entity name="spiderzombie"/>
@@ -1501,7 +1502,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS677">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieArlene"/>
@@ -1511,7 +1512,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="fatzombiecop" prob="0.437"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS686">
         <entity name="ZombieUtilityWorker"/>
         <entity name="spiderzombie"/>
@@ -1521,7 +1522,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieSoldier" prob="0.672"/>
         <entity name="fatzombiecop" prob="0.441"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS695">
         <entity name="ZombieSoldier" prob="0.674"/>
         <entity name="ZombieMaleUMA"/>
@@ -1531,7 +1532,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS703">
         <entity name="ZombieMiner"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1541,7 +1542,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS712">
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieFemaleUMA"/>
@@ -1551,7 +1552,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS721">
         <entity name="fatzombiecop" prob="0.453"/>
         <entity name="zombieSteveCrawler"/>
@@ -1561,7 +1562,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleUMA"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS729">
         <entity name="ZombieMiner"/>
         <entity name="zombieferal" prob="0.31"/>
@@ -1571,7 +1572,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS738">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieMaleHazmat"/>
@@ -1581,7 +1582,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieSoldier" prob="0.685"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS747">
         <entity name="fatzombiecop" prob="0.462"/>
         <!--<entity name="zombiedog"/>-->
@@ -1591,7 +1592,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="zombieferal" prob="0.318"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS756">
         <entity name="zombieBoe"/>
         <entity name="zombieferal" prob="0.322"/>
@@ -1601,7 +1602,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieMiner"/>
         <entity name="ZombieSoldier" prob="0.689"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS764">
         <entity name="fatzombiecop" prob="0.468"/>
         <entity name="zombieJoe"/>
@@ -1611,7 +1612,7 @@ Build: A15 stable B105
         <entity name="zombieMoe"/>
         <entity name="burntzombie"/>
         <entity name="zombieferal" prob="0.325"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS773">
         <entity name="fatzombiecop" prob="0.471"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1621,7 +1622,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS782">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieSoldier" prob="0.696"/>
@@ -1631,7 +1632,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieMarlene"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS791">
         <entity name="zombieferal" prob="0.337"/>
         <entity name="ZombieSoldier" prob="0.698"/>
@@ -1641,7 +1642,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="fatzombiecop" prob="0.477"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS800">
         <entity name="ZombieSoldier" prob="0.7"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1651,7 +1652,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.48"/>
         <entity name="zombieJoe"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS809">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMarlene"/>
@@ -1661,7 +1662,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.484"/>
         <entity name="ZombieMiner"/>
         <entity name="ZombieSoldier" prob="0.703"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS818">
         <entity name="ZombieSoldier" prob="0.705"/>
         <entity name="ZombieMiner"/>
@@ -1671,7 +1672,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="zombieMarlene"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS827">
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieferal" prob="0.352"/>
@@ -1681,7 +1682,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="spiderzombie"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS836">
         <entity name="spiderzombie"/>
         <entity name="ZombieSoldier" prob="0.709"/>
@@ -1691,7 +1692,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS845">
         <entity name="zombieMaleHazmat"/>
         <entity name="burntzombie"/>
@@ -1701,7 +1702,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.36"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS854">
         <entity name="fatzombiecop" prob="0.499"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1711,7 +1712,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.363"/>
         <entity name="zombieJoe"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS863">
         <entity name="ZombieFootballPlayer"/>
         <entity name="spiderzombie"/>
@@ -1721,7 +1722,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS873">
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieArlene"/>
@@ -1731,7 +1732,7 @@ Build: A15 stable B105
         <entity name="zombieBoe"/>
         <entity name="zombieferal" prob="0.372"/>
         <entity name="ZombieSoldier" prob="0.719"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS882">
         <entity name="zombieferal" prob="0.375"/>
         <entity name="fatzombiecop" prob="0.509"/>
@@ -1741,7 +1742,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieNurse"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS891">
         <entity name="zombieMarlene"/>
         <entity name="fatzombiecop" prob="0.512"/>
@@ -1751,7 +1752,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.379"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS900">
         <entity name="fatzombiecop" prob="0.515"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1761,7 +1762,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.725"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS909">
         <entity name="ZombieMiner"/>
         <entity name="ZombieSoldier" prob="0.728"/>
@@ -1771,7 +1772,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieMoe"/>
         <entity name="zombieferal" prob="0.387"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS919">
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieFootballPlayer"/>
@@ -1781,7 +1782,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.73"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS928">
         <entity name="zombieferal" prob="0.395"/>
         <entity name="ZombieSoldier" prob="0.732"/>
@@ -1791,7 +1792,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieMiner"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS937">
         <entity name="fatzombiecop" prob="0.528"/>
         <entity name="zombieSteve"/>
@@ -1801,7 +1802,7 @@ Build: A15 stable B105
         <entity name="zombieMoe"/>
         <entity name="ZombieSoldier" prob="0.735"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS947">
         <entity name="ZombieSoldier" prob="0.737"/>
         <entity name="zombieMaleHazmat"/>
@@ -1811,7 +1812,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS956">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieMiner"/>
@@ -1821,7 +1822,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.739"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieferal" prob="0.407"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS966">
         <entity name="burntzombie"/>
         <entity name="ZombieSoldier" prob="0.742"/>
@@ -1831,7 +1832,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieJoe"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS975">
         <entity name="fatzombiecop" prob="0.542"/>
         <entity name="zombieferal" prob="0.415"/>
@@ -1841,7 +1842,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieMarlene"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS984">
         <entity name="fatzombiecop" prob="0.545"/>
         <entity name="spiderzombie"/>
@@ -1851,7 +1852,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.419"/>
         <entity name="zombieArlene"/>
         <entity name="ZombieSoldier" prob="0.746"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS994">
         <entity name="burntzombie"/>
         <entity name="ZombieUtilityWorker"/>
@@ -1861,7 +1862,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1004">
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieMaleHazmat"/>
@@ -1871,7 +1872,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.552"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1013">
         <entity name="zombieMarlene"/>
         <entity name="zombieferal" prob="0.431"/>
@@ -1881,7 +1882,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieSoldier" prob="0.754"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1023">
         <entity name="ZombieMiner"/>
         <entity name="ZombieSoldier" prob="0.756"/>
@@ -1891,7 +1892,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="fatzombiecop" prob="0.559"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1032">
         <entity name="zombieferal" prob="0.439"/>
         <entity name="ZombieMiner"/>
@@ -1901,7 +1902,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.758"/>
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1042">
         <entity name="zombieferal" prob="0.443"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1911,7 +1912,7 @@ Build: A15 stable B105
         <entity name="zombieSteve"/>
         <entity name="ZombieSoldier" prob="0.761"/>
         <entity name="fatzombiecop" prob="0.565"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1052">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieYo"/>
@@ -1921,7 +1922,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="fatzombiecop" prob="0.569"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1061">
         <entity name="ZombieMiner"/>
         <entity name="burntzombie"/>
@@ -1931,7 +1932,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1071">
         <entity name="zombieArlene"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -1941,7 +1942,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.575"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1081">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFemaleUMA"/>
@@ -1951,7 +1952,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieNurse"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1090">
         <entity name="ZombieSoldier" prob="0.773"/>
         <entity name="ZombieUtilityWorker"/>
@@ -1961,7 +1962,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieMiner"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1100">
         <entity name="ZombieSoldier" prob="0.775"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1971,7 +1972,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1110">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieFemaleHazmat"/>
@@ -1981,7 +1982,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.778"/>
         <entity name="zombieferal" prob="0.472"/>
         <entity name="fatzombiecop" prob="0.589"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1120">
         <entity name="zombieferal" prob="0.476"/>
         <entity name="ZombieFootballPlayer"/>
@@ -1991,7 +1992,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieSoldier" prob="0.78"/>
         <entity name="zombieYo"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1130">
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.596"/>
@@ -2001,7 +2002,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1139">
         <entity name="fatzombiecop" prob="0.599"/>
         <entity name="zombieDarlene"/>
@@ -2011,7 +2012,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.785"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1149">
         <entity name="ZombieSoldier" prob="0.788"/>
         <entity name="zombieFemaleHazmat"/>
@@ -2021,7 +2022,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="zombieMoe"/>
         <entity name="zombieferal" prob="0.489"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1159">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMoe"/>
@@ -2031,7 +2032,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1169">
         <entity name="ZombieFootballPlayer"/>
         <!--<entity name="zombiedog"/>-->
@@ -2041,7 +2042,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="zombieSteve"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1179">
         <entity name="zombieferal" prob="0.502"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2051,7 +2052,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1189">
         <entity name="ZombieFootballPlayer"/>
         <entity name="fatzombiecop" prob="0.617"/>
@@ -2061,7 +2062,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.798"/>
         <entity name="zombieDarlene"/>
         <entity name="zombieferal" prob="0.506"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1199">
         <entity name="zombieferal" prob="0.51"/>
         <entity name="ZombieSoldier" prob="0.8"/>
@@ -2071,7 +2072,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1209">
         <entity name="zombieMarlene"/>
         <entity name="zombieferal" prob="0.514"/>
@@ -2081,7 +2082,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="ZombieCheerleader"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1219">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieMaleHazmat"/>
@@ -2091,7 +2092,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="ZombieSoldier" prob="0.805"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1229">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieferal" prob="0.523"/>
@@ -2101,7 +2102,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.808"/>
         <entity name="zombieMoe"/>
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1239">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieferal" prob="0.527"/>
@@ -2111,7 +2112,7 @@ Build: A15 stable B105
         <entity name="burntzombie"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1250">
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieCheerleader"/>
@@ -2121,7 +2122,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieJoe"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1260">
         <entity name="zombieSteveCrawler"/>
         <entity name="spiderzombie"/>
@@ -2131,7 +2132,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieArlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1270">
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2141,7 +2142,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieMiner"/>
         <entity name="zombieBoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1280">
         <entity name="fatzombiecop" prob="0.648"/>
         <entity name="burntzombie"/>
@@ -2151,7 +2152,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1290">
         <entity name="zombieferal" prob="0.549"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2161,7 +2162,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieJoe"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1301">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieSteve"/>
@@ -2171,7 +2172,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.553"/>
         <entity name="spiderzombie"/>
         <entity name="burntzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1311">
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieDarlene"/>
@@ -2181,7 +2182,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="fatzombiecop" prob="0.659"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1321">
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.663"/>
@@ -2191,7 +2192,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieferal" prob="0.562"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1331">
         <entity name="ZombieMiner"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2201,7 +2202,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1342">
         <entity name="ZombieSoldier" prob="0.836"/>
         <entity name="ZombieCheerleader"/>
@@ -2211,7 +2212,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="fatzombiecop" prob="0.67"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1352">
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieSoldier" prob="0.838"/>
@@ -2221,7 +2222,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.674"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1362">
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2231,7 +2232,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1373">
         <entity name="zombieferal" prob="0.584"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2241,7 +2242,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieYo"/>
         <entity name="ZombieSoldier" prob="0.844"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1383">
         <entity name="zombieMoe"/>
         <entity name="zombieMaleHazmat"/>
@@ -2251,7 +2252,7 @@ Build: A15 stable B105
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1394">
         <entity name="ZombieUtilityWorker"/>
         <entity name="fatzombiecop" prob="0.688"/>
@@ -2261,7 +2262,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="zombieNurse"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1404">
         <entity name="zombieYo"/>
         <entity name="zombieBoe"/>
@@ -2271,7 +2272,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="spiderzombie"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1415">
         <entity name="ZombieMiner"/>
         <entity name="ZombieSkateboarder"/>
@@ -2281,7 +2282,7 @@ Build: A15 stable B105
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieNurse"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1425">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2291,7 +2292,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.606"/>
         <!--<entity name="zombiedog"/>-->
         <entity name="zombieJoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1436">
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.611"/>
@@ -2301,7 +2302,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.703"/>
         <entity name="ZombieSoldier" prob="0.859"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1446">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFemaleFatUMA"/>
@@ -2311,7 +2312,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1457">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieferal" prob="0.62"/>
@@ -2321,7 +2322,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.71"/>
         <entity name="zombieSteve"/>
         <entity name="ZombieMaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1467">
         <entity name="zombieJoe"/>
         <entity name="zombieFemaleHazmat"/>
@@ -2331,7 +2332,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieMoe"/>
         <entity name="zombieDarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1478">
         <entity name="fatzombiecop" prob="0.718"/>
         <entity name="zombieDarlene"/>
@@ -2341,7 +2342,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieSoldier" prob="0.87"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1489">
         <entity name="fatzombiecop" prob="0.722"/>
         <entity name="ZombieSkateboarder"/>
@@ -2351,7 +2352,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="zombieDarlene"/>
         <entity name="ZombieFemaleFatUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1499">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieMoe"/>
@@ -2361,7 +2362,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="burntzombie"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1510">
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
@@ -2371,7 +2372,7 @@ Build: A15 stable B105
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieSoldier" prob="0.878"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1521">
         <entity name="fatzombiecop" prob="0.733"/>
         <entity name="zombieArlene"/>
@@ -2381,7 +2382,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1531">
         <entity name="ZombieSoldier" prob="0.883"/>
         <entity name="fatzombiecop" prob="0.736"/>
@@ -2391,7 +2392,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="spiderzombie"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1542">
         <entity name="zombieJoe"/>
         <entity name="zombieArlene"/>
@@ -2401,7 +2402,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="fatzombiecop" prob="0.74"/>
         <entity name="zombieferal" prob="0.656"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1553">
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.744"/>
@@ -2411,7 +2412,7 @@ Build: A15 stable B105
         <entity name="zombieNurse"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1564">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2421,7 +2422,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieSoldier" prob="0.891"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1575">
         <entity name="ZombieSoldier" prob="0.894"/>
         <entity name="ZombieMiner"/>
@@ -2431,7 +2432,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1585">
         <entity name="spiderzombie"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2441,7 +2442,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieMiner"/>
         <entity name="fatzombiecop" prob="0.755"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1596">
         <entity name="ZombieFootballPlayer"/>
         <entity name="fatzombiecop" prob="0.759"/>
@@ -2451,7 +2452,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="ZombieCheerleader"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1607">
         <entity name="fatzombiecop" prob="0.763"/>
         <entity name="zombieYo"/>
@@ -2461,7 +2462,7 @@ Build: A15 stable B105
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1618">
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieBoe"/>
@@ -2471,7 +2472,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.767"/>
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1629">
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieSkateboarder"/>
@@ -2481,7 +2482,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="fatzombiecop" prob="0.771"/>
         <entity name="zombieBoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1640">
         <entity name="zombieYo"/>
         <entity name="spiderzombie"/>
@@ -2491,7 +2492,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="burntzombie"/>
         <entity name="fatzombiecop" prob="0.774"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1651">
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2501,7 +2502,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.702"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1662">
         <entity name="fatzombiecop" prob="0.782"/>
         <entity name="ZombieMiner"/>
@@ -2511,7 +2512,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="zombieFemaleHazmat"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1673">
         <entity name="zombieferal" prob="0.712"/>
         <entity name="fatzombiecop" prob="0.786"/>
@@ -2521,7 +2522,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieFemaleUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1684">
         <entity name="zombieferal" prob="0.716"/>
         <entity name="zombieMaleHazmat"/>
@@ -2531,7 +2532,7 @@ Build: A15 stable B105
         <entity name="zombieYo"/>
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1695">
         <entity name="zombieJoe"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2541,7 +2542,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.721"/>
         <entity name="ZombieSoldier" prob="0.924"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1706">
         <entity name="fatzombiecop" prob="0.798"/>
         <entity name="spiderzombie"/>
@@ -2551,7 +2552,7 @@ Build: A15 stable B105
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1717">
         <entity name="zombieferal" prob="0.73"/>
         <entity name="fatzombiecop" prob="0.801"/>
@@ -2561,7 +2562,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.93"/>
         <entity name="ZombieMaleUMA"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1728">
         <entity name="spiderzombie"/>
         <entity name="fatzombiecop" prob="0.805"/>
@@ -2571,7 +2572,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieSoldier" prob="0.932"/>
         <entity name="zombieFemaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1739">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieferal" prob="0.74"/>
@@ -2581,7 +2582,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.935"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="fatzombiecop" prob="0.809"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1750">
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieferal" prob="0.744"/>
@@ -2591,7 +2592,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieYo"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1761">
         <entity name="zombieDarlene"/>
         <entity name="zombieMaleHazmat"/>
@@ -2601,7 +2602,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="zombieferal" prob="0.749"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1772">
         <entity name="zombieMoe"/>
         <entity name="zombieferal" prob="0.754"/>
@@ -2611,7 +2612,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.943"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieFemaleFatUMA"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1784">
         <entity name="zombieArlene"/>
         <entity name="zombieferal" prob="0.759"/>
@@ -2621,7 +2622,7 @@ Build: A15 stable B105
         <entity name="spiderzombie"/>
         <entity name="ZombieMiner"/>
         <entity name="zombieSteve"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1795">
         <entity name="zombieDarlene"/>
         <entity name="ZombieFootballPlayer"/>
@@ -2631,7 +2632,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.949"/>
         <entity name="zombieFemaleHazmat"/>
         <entity name="zombieferal" prob="0.763"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1806">
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieMaleUMA"/>
@@ -2641,7 +2642,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1817">
         <entity name="fatzombiecop" prob="0.836"/>
         <entity name="ZombieSoldier" prob="0.955"/>
@@ -2651,7 +2652,7 @@ Build: A15 stable B105
         <entity name="zombieSteve"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieferal" prob="0.773"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1829">
         <entity name="zombieferal" prob="0.778"/>
         <entity name="fatzombiecop" prob="0.841"/>
@@ -2661,7 +2662,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.958"/>
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1840">
         <entity name="zombieFemaleHazmat"/>
         <entity name="spiderzombie"/>
@@ -2671,7 +2672,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.96"/>
         <entity name="burntzombie"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1851">
         <entity name="zombieferal" prob="0.787"/>
         <entity name="ZombieSoldier" prob="0.963"/>
@@ -2681,7 +2682,7 @@ Build: A15 stable B105
         <entity name="ZombieMiner"/>
         <entity name="zombieMaleHazmat"/>
         <!--<entity name="zombiedog"/>-->
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1863">
         <entity name="ZombieFootballPlayer"/>
         <entity name="ZombieSoldier" prob="0.966"/>
@@ -2691,7 +2692,7 @@ Build: A15 stable B105
         <entity name="fatzombiecop" prob="0.853"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieNurse"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1874">
         <entity name="ZombieMiner"/>
         <!--<entity name="zombiedog"/>-->
@@ -2701,7 +2702,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene"/>
         <entity name="burntzombie"/>
         <entity name="fatzombiecop" prob="0.856"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1885">
         <entity name="zombieFemaleHazmat"/>
         <entity name="ZombieUtilityWorker"/>
@@ -2711,7 +2712,7 @@ Build: A15 stable B105
         <entity name="ZombieFootballPlayer"/>
         <entity name="zombieJoe"/>
         <entity name="ZombieCheerleader"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1897">
         <entity name="ZombieSoldier" prob="0.975"/>
         <entity name="ZombieMiner"/>
@@ -2721,7 +2722,7 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="zombieMaleHazmat"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1908">
         <entity name="zombieArlene"/>
         <entity name="zombieSteve"/>
@@ -2731,7 +2732,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.811"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMoe"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1919">
         <entity name="fatzombiecop" prob="0.872"/>
         <entity name="zombieFemaleHazmat"/>
@@ -2741,7 +2742,7 @@ Build: A15 stable B105
         <entity name="zombieMoe"/>
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieMaleHazmat"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1931">
         <entity name="zombieMaleHazmat"/>
         <entity name="zombieFemaleHazmat"/>
@@ -2751,7 +2752,7 @@ Build: A15 stable B105
         <entity name="ZombieSoldier" prob="0.983"/>
         <entity name="zombieJoe"/>
         <entity name="zombieMarlene"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1942">
         <entity name="ZombieUtilityWorker"/>
         <entity name="ZombieFemaleUMA"/>
@@ -2761,7 +2762,7 @@ Build: A15 stable B105
         <entity name="ZombieSkateboarder"/>
         <entity name="burntzombie"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1954">
         <entity name="zombieSteveCrawler"/>
         <entity name="zombieDarlene"/>
@@ -2771,7 +2772,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.831"/>
         <entity name="ZombieSkateboarder"/>
         <entity name="ZombieUtilityWorker"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1965">
         <entity name="ZombieFemaleFatUMA"/>
         <entity name="ZombieSoldier" prob="0.992"/>
@@ -2781,7 +2782,7 @@ Build: A15 stable B105
         <!--<entity name="zombiedog"/>-->
         <entity name="ZombieMiner"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1977">
         <entity name="zombieferal" prob="0.841"/>
         <entity name="zombieDarlene"/>
@@ -2791,7 +2792,7 @@ Build: A15 stable B105
         <entity name="ZombieUtilityWorker"/>
         <entity name="zombieYo"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS1988">
         <entity name="zombieMaleHazmat"/>
         <entity name="spiderzombie"/>
@@ -2801,7 +2802,7 @@ Build: A15 stable B105
         <entity name="zombieMarlene"/>
         <entity name="ZombieSoldier" prob="0.997"/>
         <entity name="fatzombiecop" prob="0.896"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS2000">
         <entity name="zombieFemaleHazmat"/>
         <!--<entity name="zombiedog"/>-->
@@ -2811,7 +2812,7 @@ Build: A15 stable B105
         <entity name="zombieArlene"/>
         <entity name="fatzombiecop" prob="0.9"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS2011">
         <entity name="spiderzombie"/>
         <entity name="burntzombie"/>
@@ -2821,7 +2822,7 @@ Build: A15 stable B105
         <entity name="zombieferal" prob="0.85"/>
         <entity name="ZombieSoldier" prob="1"/>
         <entity name="ZombieMiner"/>
-    </entitygroup>		
+    </entitygroup>
     <entitygroup name="hordeStageGS2023">
         <entity name="fatzombiecop" prob="0.9"/>
         <entity name="zombieDarlene"/>
@@ -2831,30 +2832,29 @@ Build: A15 stable B105
         <entity name="zombieJoe"/>
         <entity name="zombieMarlene"/>
         <entity name="ZombieFootballPlayer"/>
-    </entitygroup>		
+    </entitygroup>
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <!-- start: the walking zed groups-->
-<entitygroup name="ZombieBearGroup">
+    <entitygroup name="ZombieBearGroup">
         <entity name="zombieBear" prob="0.01"/>
     </entitygroup>
     <entitygroup name="HornetNestGroup">
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
+        <entity name="hornet" prob="0.10"/>
+        <entity name="hornet" prob="0.10"/>
+        <entity name="hornet" prob="0.10"/>
+        <entity name="hornet" prob="0.10"/>
         <entity name="hornet" prob="0.05"/>
         <entity name="hornet" prob="0.05"/>
         <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.03"/>
-        <entity name="hornet" prob="0.03"/>
-        <entity name="hornet" prob="0.03"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05"/>
         <entity name="hornet" prob="0.02"/>
-        <entity name="hornet" prob="0.02"/>
-        <entity name="hornet" prob="0.02"/>
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
-        <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
