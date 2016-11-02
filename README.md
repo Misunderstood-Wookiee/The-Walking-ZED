@@ -28,4 +28,24 @@ Less Hornets
 Players can stun other Players - No more shall a zombie be the only ones with stun abilities, players fists now have a chance to stun.
 
 
-Note: This mod is a work in progress and DOES impact game performance to some degree.
+# Valmod Overhaul Version Features
+
+Everything Above +
+
+Jason will attack zombies aswell as the player, he can still climb ladders.
+
+Re-added Zombie Children
+
+Re-added Voodoo Zombies
+
+Re-added Big ♥♥♥♥♥
+
+Re-added Jane
+
+Re-added Clarice
+
+Re-added Rave Reapers
+
+Bunch of Spawn Group Variation changes.
+
+#This mod is a work in progress and DOES impact game performance to some degree.
