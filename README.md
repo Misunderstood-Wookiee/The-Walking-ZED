@@ -17,4 +17,4 @@ Less Hornets
 Players can stun other Players - No more shall a zombie be the only ones with stun abilities, players fists now have a chance to stun.
 
 
-Note: This mod is a work in progress and probably impacts game performance to some degree.
+Note: This mod is a work in progress and DOES impact game performance to some degree.
