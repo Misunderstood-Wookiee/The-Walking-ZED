@@ -113,8 +113,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <!--<entity name="hornet" prob="0.15"/>-->
-        <!--<entity name="zombiedog" prob="0.15"/>-->
+        <!--<entity name="hornet" prob="0.15"/>--> />
+        <!--<entity name="zombiedog" prob="0.15"/>--> />
         <entity name="zombieSteveCrawler" prob="0.05"/>
         <entity name="fatzombiecop" prob="0.15"/>
         <entity name="burntzombie" prob="0.07"/>
@@ -137,8 +137,8 @@ Build: A15 stable B105
         <entity name="zombieDarlene" />
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
-        <!--<entity name="hornet" prob="0.15"/>-->
-        <!--<entity name="zombiedog" prob="0.15"/>-->
+        <!--<entity name="hornet" prob="0.15"/>--> />
+        <!--<entity name="zombiedog" prob="0.15"/>--> />
         <entity name="zombieSteveCrawler" prob="0.05"/>
         <entity name="fatzombiecop" prob="0.15"/>
         <entity name="burntzombie" prob="0.07"/>
@@ -157,9 +157,9 @@ Build: A15 stable B105
         <entity name="zombieMarlene" />
         <entity name="zombieNurse" />
         <entity name="fatzombiecop" prob="0.05"/>
-        <!--<entity name="hornet" prob="0.05"/>-->
-        <!--<entity name="zombiedog" prob="0.05"/>-->
-        <!--<entity name="zombieBear" prob="0.05"/>-->
+        <!--<entity name="hornet" prob="0.05" />-->
+        <!--<entity name="zombiedog" prob="0.05" />-->
+        <entity name="zombieBear" prob="0.05"/>
         <entity name="zombieSteveCrawler" prob="0.1"/>
     </entitygroup>
 
@@ -251,7 +251,7 @@ Build: A15 stable B105
         <entity name="zombieDarlene" prob="0.01" />
         <entity name="zombieMarlene" prob="0.01" />
         <entity name="zombieNurse" prob="0.01" />
-        <entity name="zombiedog" prob="0.01" />
+        <!--<entity name="zombiedog" prob="0.01" />-->
         <entity name="zombieSteveCrawler" prob="0.01" />
         <entity name="zombieferal" prob="0.01" />
     </entitygroup>
@@ -2744,17 +2744,17 @@ Build: A15 stable B105
         <entity name="hornet" prob="0.10"/>
         <entity name="hornet" prob="0.10"/>
         <entity name="hornet" prob="0.10"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
-        <entity name="hornet" prob="0.05"/>
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
+        <entity name="hornet" prob="0.05" />
         <entity name="hornet" prob="0.02"/>
         <entity name="hornet" prob="0.01"/>
         <entity name="hornet" prob="0.01"/>
