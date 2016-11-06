@@ -1,6 +1,6 @@
 # The-Walking-ZED
  A 7 Days to Die Zombie Ai Overhaul Mod
- Compatible with A15 Build 105 & Valmod Overhaul v4.1
+ Compatible with A15 Build 105 & Valmod Overhaul v4.15 (no progression changes or items removed)
 
 #----Features----
 Mostly Server Side - clients do not need to install most of it to run on a server.
