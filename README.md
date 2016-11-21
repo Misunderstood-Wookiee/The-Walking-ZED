@@ -5,8 +5,8 @@
  (no progression changes or items removed)**
 
 #----Features----
-* Mostly Server Side - clients do not need to install most of it to run on a server.
 
+* Mostly Server Side - clients do not need to install most of it to run on a server.
 * More Zombies -  zombie spawns increased subtantially (expect larger roaming groups and harder\larger  Blood Moons).
 * Less Block Damage - Zombies do 1/2 the damage to buildings and doors.
 * Stunned Time Reduced - half the time & half the duration giving you more time to react.
