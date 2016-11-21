@@ -470,7 +470,7 @@ Build: A15 stable B105
 	<property name="Explosion.ParticleIndex" value="8" />
 	<property name="Explosion.RadiusBlocks" value="5" />
 	<property name="Explosion.RadiusEntities" value="6" />
-	<property name="Explosion.BlockDamage" value="0" />
+	<property name="Explosion.BlockDamage" value="250" />
 	<property name="Explosion.EntityDamage" value="150" />
 	<property name="Explosion.DamageBonus.earth" value="0" />
 	<property name="ExperienceGain" value="700"/>
@@ -1500,7 +1500,6 @@ Build: A15 stable B105
         <property name="LowerArmDismemberThreshold" value="0"/>
         <property name="UpperArmDismemberThreshold" value="0"/>
         <property name="HasDeathAnim" value="false" />
-        <property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityZombie" param2="60"/>
     </entity_class>
     <entity_class name="Scorched Rusher" extends="zombie01">
         <property name="LootListOnDeath" value="91" />
@@ -1557,23 +1556,6 @@ Build: A15 stable B105
         <property name="NightApproachSpeed" value="1.4" />
         <property name="LootListOnDeath" value="61" />
         <property name="HandItem" value="handReaper" />
-        <!-- AI properties -->
-        <property name="AITask-1" value="BreakDoor" />
-        <property name="AITask-2" value="BreakBlock" />
-        <property name="AITask-3" value="Territorial" param1="10" />
-        <property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
-        <property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC"/>
-        <property name="AITask-6" value="ApproachSpot" />
-        <property name="AITask-7" value="Wander" />
-
-        <property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityNPC" />
-        <property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer" />
-        <property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityZombie" />
-        <property name="AITarget-3" value="BlockingTargetTask" />
-        <property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
-        <property name="AITarget-5" value="SetNearestCorpseAsTarget" param1="EntityZombie" param2="30" />
-        <property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityNPC" />
-        <property name="AITarget-7" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
     </entity_class>
     <entity_class name="ZombieBigBitch" extends="ZombieFemaleUMA" >
         <property name="Archetype" value="ZombieBigBitch"/>
@@ -1630,7 +1612,11 @@ Build: A15 stable B105
         <property name="HandItem" value="handStrongZombie" />
         <property name="ExperienceGain" value="150"/>
     </entity_class>
-
+    <!--<entity_class name="ZombieSurvivorMale" extends="zombieUMA" >
+            <property name="Archetype" value="ZombieSurvivorMale"/>
+            <property name="WalkType" value="1" />
+            <property name="LootListOnDeath" value="124" />
+    </entity_class>-->
     <entity_class name="ZombieTrucker" extends="zombieUMA" >
         <property name="Archetype" value="ZombieTrucker"/>
         <property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam" />
@@ -1657,7 +1643,10 @@ Build: A15 stable B105
         <property name="KnockdownProneDamageThreshold" value="0"/>
         <property name="KnockdownKneelDamageThreshold" value="0"/>
     </entity_class>
-
+    <!--<entity_class name="ZombieKenny" extends="zombieUMA" >
+            <property name="Archetype" value="ZombieKenny"/>
+            <property name="LootListOnDeath" value="15" />
+    </entity_class>-->
     <entity_class name="ZombieRavager" extends="zombieUMA" >
         <property name="Archetype" value="ZombieRavager"/>
         <property name="WalkType" value="4" />
@@ -1686,7 +1675,23 @@ Build: A15 stable B105
         <property name="ApproachSpeed" value="1.3" />
         <property name="NightApproachSpeed" value="1.3" />
     </entity_class>
-
+    <!--<entity_class name="ZombieNerd" extends="zombieUMA" >
+            <property name="Archetype" value="ZombieNerd"/>
+            <property name="MaxHealth" value="80" />
+            <property name="WalkType" value="7" />
+            <property name="ExperienceGain" value="100"/>
+            <property name="LootListOnDeath" value="127" />
+    </entity_class> -->
+    <!--<entity_class name="ZombieInmate" extends="zombieUMA" >
+            <property name="Archetype" value="ZombieInmate"/>
+            <property name="WalkType" value="6" />
+            <property name="LootListOnDeath" value="128" />
+    </entity_class>-->
+    <!--<entity_class name="ZombieInmateBlack" extends="zombieUMA" >
+            <property name="Archetype" value="ZombieInmateBlack"/>
+            <property name="WalkType" value="6" />
+            <property name="LootListOnDeath" value="128" />
+    </entity_class>-->
     <entity_class name="ZombieBrute" extends="zombieUMA" >
         <property name="Archetype" value="ZombieBrute"/>
         <property name="HandItem"             value="GorillaBossHand" />
